@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+   <RelativeLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:layout_above="@+id/adView">
+
+       <RelativeLayout
+           android:id="@+id/con1"
+           android:layout_width="match_parent"
+           android:layout_height="140dp"
+           android:background="@drawable/contact"
+           android:gravity="bottom"
+           android:padding="10dp"
+           android:orientation="vertical">
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:paddingTop="4dp"
+               android:text="@string/contact"
+               android:textColor="@color/pink"
+               android:textSize="40dp" />
+       </RelativeLayout>
+
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:layout_below="@+id/bar1"
+           android:orientation="horizontal">
+
+           <RelativeLayout
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:layout_marginTop="@dimen/_5sdp">
+
+               <View
+                   android:layout_width="400dp"
+                   android:layout_height="5dp"
+                   android:background="@color/pink"
+                   android:layout_marginTop="@dimen/_100sdp"
+                   android:layout_marginLeft="@dimen/_10sdp"
+                   android:layout_marginRight="@dimen/_10sdp"
+                   android:layout_gravity="center"/>
+
+               <ImageView
+                   android:layout_width="@dimen/_30sdp"
+                   android:layout_height="@dimen/_30sdp"
+                   android:layout_marginLeft="@dimen/_150sdp"
+                   android:layout_marginTop="@dimen/_120sdp"
+                   android:layout_gravity="center"
+                   android:src="@drawable/allo" />
+
+               <ImageView
+                   android:layout_width="@dimen/_30sdp"
+                   android:layout_height="@dimen/_30sdp"
+                   android:layout_marginLeft="@dimen/_150sdp"
+                   android:layout_marginTop="@dimen/_240sdp"
+                   android:layout_gravity="center"
+                   android:src="@drawable/localstan" />
+
+               <ImageView
+                   android:layout_width="@dimen/_30sdp"
+                   android:layout_height="@dimen/_30sdp"
+                   android:layout_marginLeft="@dimen/_150sdp"
+                   android:layout_marginTop="@dimen/_375sdp"
+                   android:layout_gravity="center"
+                   android:src="@drawable/search" />
+
+
+                   <LinearLayout
+                       android:layout_width="match_parent"
+                       android:layout_height="match_parent"
+                       android:layout_margin="@dimen/_5sdp"
+                       android:orientation="vertical">
+
+                       <RelativeLayout
+                           android:layout_width="match_parent"
+                           android:layout_height="@dimen/_50sdp"
+                           android:layout_marginTop="@dimen/_150sdp"
+                           android:layout_marginBottom="@dimen/_5sdp"
+                           android:background="@drawable/ic_card"
+                           android:gravity="center">
+
+                           <TextView
+                               android:layout_width="wrap_content"
+                               android:layout_height="match_parent"
+                               android:layout_marginLeft="@dimen/_8sdp"
+                               android:fontFamily="@font/arial"
+                               android:gravity="center"
+                               android:text="Contactez notreservice clients par téléphone"
+                               android:textColor="@color/black"
+                               android:textSize="@dimen/_13sdp" />
+
+                           <TextView
+                               android:layout_width="wrap_content"
+                               android:layout_height="match_parent"
+                               android:layout_marginLeft="@dimen/_60sdp"
+                               android:layout_marginTop="@dimen/_30sdp"
+                               android:fontFamily="@font/arial"
+                               android:gravity="center"
+                               android:text="@string/txtallo"
+
+                               android:textColor="@color/pink"
+                               android:textSize="@dimen/_13sdp" />
+
+                       </RelativeLayout>
+
+                       <RelativeLayout
+                           android:layout_width="match_parent"
+                           android:layout_height="@dimen/_65sdp"
+                           android:layout_marginTop="@dimen/_70sdp"
+                           android:layout_marginBottom="@dimen/_5sdp"
+                           android:background="@drawable/ic_card"
+                           android:gravity="center">
+
+
+                           <TextView
+                               android:layout_width="wrap_content"
+                               android:layout_height="match_parent"
+                               android:layout_marginLeft="@dimen/_8sdp"
+                               android:fontFamily="@font/arial"
+                               android:gravity="center"
+                               android:text="Centre de Maintenance Tramway Avenue Abderrahim Bouabid, Hay Karima-Salé"
+                               android:textColor="@color/black"
+                               android:textSize="@dimen/_13sdp" />
+
+                           <TextView
+                               android:layout_width="wrap_content"
+                               android:layout_height="match_parent"
+                               android:layout_marginLeft="@dimen/_75sdp"
+                               android:layout_marginTop="@dimen/_45sdp"
+                               android:layout_marginRight="@dimen/_40sdp"
+                               android:fontFamily="@font/arial"
+                               android:gravity="center"
+                               android:text="@string/txtstan"
+                               android:textColor="@color/pink"
+                               android:textSize="@dimen/_13sdp" />
+                       </RelativeLayout>
+
+
+                       <RelativeLayout
+                           android:layout_width="match_parent"
+                           android:layout_height="@dimen/_60sdp"
+                           android:layout_marginTop="@dimen/_60sdp"
+                           android:layout_marginBottom="@dimen/_5sdp"
+                           android:background="@drawable/ic_card"
+                           android:gravity="center">
+
+                           <TextView
+                               android:layout_width="wrap_content"
+                               android:layout_height="match_parent"
+                               android:layout_marginLeft="@dimen/_30sdp"
+                               android:fontFamily="@font/arial"
+                               android:gravity="center"
+                               android:text="Recrutement Déposez votre condidature"
+                               android:textColor="@color/black"
+                               android:textSize="@dimen/_13sdp" />
+
+                           <TextView
+                               android:id="@+id/mail_recru"
+                               android:layout_width="wrap_content"
+                               android:layout_height="match_parent"
+                               android:layout_marginLeft="@dimen/_35sdp"
+                               android:layout_marginTop="@dimen/_35sdp"
+                               android:fontFamily="@font/arial"
+                               android:gravity="center"
+                               android:text="@string/txtmail"
+                               android:textColor="@color/pink"
+                               android:textSize="@dimen/_13sdp" />
+                       </RelativeLayout>
+
+                       <RelativeLayout
+                           android:layout_width="match_parent"
+                           android:layout_height="match_parent"
+                           android:layout_marginTop="@dimen/_1sdp"
+                           android:layout_marginBottom="@dimen/_5sdp"
+                           android:gravity="center">
+
+                           <TextView
+                               android:layout_width="match_parent"
+                               android:layout_height="70dp"
+                               android:layout_marginTop="@dimen/_2sdp"
+                               android:text="@string/formu"
+                               android:textColor="@color/pink"
+                               android:textSize="35dp"
+                               android:layout_marginLeft="@dimen/_21sdp"/>
+
+                           <View
+                               android:layout_width="400dp"
+                               android:layout_height="5dp"
+                               android:layout_gravity="center"
+                               android:layout_marginLeft="@dimen/_10sdp"
+                               android:layout_marginTop="@dimen/_35sdp"
+                               android:layout_marginRight="@dimen/_10sdp"
+                               android:background="@color/pink" />
+
+
+                               <TextView
+                                   android:id="@+id/tnom"
+                                   android:layout_width="match_parent"
+                                   android:layout_height="wrap_content"
+                                   android:layout_marginTop="@dimen/_45sdp"
+                                   android:text="Nom"
+                                   android:textColor="@color/black"
+                                   android:textSize="@dimen/_13sdp" />
+
+                               <EditText
+                                   android:id="@+id/enom"
+                                   android:layout_width="match_parent"
+                                   android:layout_height="wrap_content"
+                                   android:layout_marginTop="@dimen/_55sdp"
+                                   android:hint="Votre Nom" />
+
+                               <TextView
+                                   android:id="@+id/tmail"
+                                   android:layout_width="match_parent"
+                                   android:layout_height="wrap_content"
+                                   android:layout_marginTop="@dimen/_80sdp"
+                                   android:text="E-mail"
+                                   android:textColor="@color/black"
+                                   android:textSize="@dimen/_13sdp" />
+
+                               <EditText
+                                   android:id="@+id/email"
+                                   android:layout_width="match_parent"
+                                   android:layout_height="wrap_content"
+                                   android:layout_marginTop="@dimen/_90sdp"
+                                   android:hint="Votre Email" />
+
+                               <TextView
+                                   android:id="@+id/tmessage"
+                                   android:layout_width="match_parent"
+                                   android:layout_height="wrap_content"
+                                   android:layout_marginTop="@dimen/_115sdp"
+                                   android:text="Message"
+                                   android:textColor="@color/black"
+                                   android:textSize="@dimen/_13sdp" />
+
+                               <EditText
+                                   android:id="@+id/emessage"
+                                   android:layout_width="match_parent"
+                                   android:layout_height="wrap_content"
+                                   android:layout_marginTop="@dimen/_125sdp"
+                                   android:hint="Votre message"
+                                   android:inputType="textMultiLine"
+                                   android:lines="8"
+                                   android:maxLines="10"
+                                   android:minLines="6"
+                                   android:scrollbars="vertical" />
+
+                               <Button
+                                   android:id="@+id/btne"
+                                   android:layout_width="100dp"
+                                   android:layout_height="match_parent"
+                                   android:layout_marginTop="@dimen/_235sdp"
+                                   android:text="Envoyer" />
+
+                       </RelativeLayout>
+                   </LinearLayout>
+
+
+
+
+           </RelativeLayout>
+
+       </LinearLayout>
+
+</RelativeLayout>
+</ScrollView>
+</RelativeLayout>

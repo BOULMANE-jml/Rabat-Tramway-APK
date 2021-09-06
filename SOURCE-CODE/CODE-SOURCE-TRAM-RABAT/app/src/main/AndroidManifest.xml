@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.tram.way.rabat">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <meta-data
+        android:name="com.google.android.geo.API_KEY"
+        android:value="@string/google_maps_key" />
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:supportsRtl="true"
+        android:theme="@style/FullScreenTheme"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="m">
+        <activity android:name=".Activities.ActivityDepartArrivee"></activity>
+        <activity android:name=".Activities.ActivityStationL2" />
+        <activity android:name=".Activities.ActivityTicket" />
+        <activity android:name=".Activities.ActivityAbonnement" />
+        <activity
+            android:name=".Activities.ActivityStation"
+            android:label="@string/title_activity_station"
+            android:theme="@style/FullScreenTheme.NoActionBar" />
+        <activity android:name=".Activities.ActivityLogout" />
+        <activity android:name=".Activities.ActivityContact">
+            <intent-filter>
+                <action android:name="android.intent.action.SENDTO" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Activities.ActivityPlanLignes" />
+        <activity android:name=".Activities.ActivityHoraire" />
+        <activity android:name=".Activities.ActivitySetting" />
+        <activity
+            android:name=".Activities.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <service
+            android:name=".ServiceSetting"
+            android:enabled="true"
+            android:exported="true" />
+
+        <activity
+            android:name=".Activities.ActivitySplash"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

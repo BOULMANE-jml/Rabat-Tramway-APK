@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.ActivityPlanLignes"
+
+
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#FFFFFF"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+
+
+            <TextView
+                android:layout_width="367dp"
+                android:layout_height="29dp"
+                android:gravity="center|clip_vertical|center_vertical"
+                android:text="CARTE INTERACTIVE"
+                android:textColor="#55356d"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+        <WebView
+            android:id="@+id/web"
+            android:layout_width="match_parent"
+            android:layout_height="579dp"/>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:paddingLeft="0dp"
+            android:paddingTop="4dp">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <View
+                    android:layout_width="158dp"
+                    android:layout_height="15dp"
+                    android:background="#ea3d8f" />
+
+                <TextView
+                    android:layout_width="105dp"
+                    android:layout_height="20dp"
+                    android:text="      Line 1"
+                    android:textColor="#000000"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+            </TableRow>
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="10dp"
+                android:background="#ffffff" />
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <View
+                    android:layout_width="142dp"
+                    android:layout_height="15dp"
+                    android:background="#9C27B0" />
+
+                <TextView
+                    android:layout_width="226dp"
+                    android:layout_height="20dp"
+                    android:text="      Line 2"
+                    android:textColor="#000000"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="10dp"
+                android:background="#ffffff" />
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <View
+                    android:layout_width="148dp"
+                    android:layout_height="15dp"
+                    android:background="#E65100"
+                    android:paddingTop="30dp" />
+
+                <TextView
+                    android:layout_width="222dp"
+                    android:layout_height="20dp"
+                    android:text="      Tronc commun"
+                    android:textColor="#000000"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+            </TableRow>
+
+        </TableLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="46dp"
+            android:background="#ffffff" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="136dp"
+            android:orientation="vertical">
+
+
+
+
+
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</ScrollView>

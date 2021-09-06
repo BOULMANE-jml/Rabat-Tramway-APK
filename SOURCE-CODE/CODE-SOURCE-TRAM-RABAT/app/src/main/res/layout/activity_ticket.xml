@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.ActivityTicket"
+    android:background="@drawable/backk"
+    >
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#C2FFF5"
+            android:text="          Ticket  et  Infractions "
+            android:textColor="#000000"
+            android:fontFamily="@font/riot"
+            android:textSize="16dp"
+            android:textStyle="italic"/>
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="10dp"
+            android:background="#ffffff" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="10dp"
+            android:background="#ffffff" />
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="                         TRAMWAY TICKETS"
+            android:textColor="@color/pink"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:text="  Prix et validité "
+            android:textColor="#000000"
+            android:textSize="16dp" />
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="13dp"
+            android:text="Vendu à l'unité, le ticket permet de voyager librement sur la totalité du réseau durant une heure à partir de la première validation,
+et permet la correspondance sur des lignes différentes.\n\n
+Vous pouvez acheter les tickets à l’avance afin d’éviter le temps d’attente devant les kiosques, car tant qu’il n’est pas validé le ticket est toujours valable."
+            android:textColor="@color/color_text_list" />
+
+        <TextView
+            android:id="@+id/textView26"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   Règle de la correspondance :"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:textColor="#000000"
+            android:textSize="16dp"/>
+
+        <TextView
+            android:id="@+id/textView27"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/color_text_list"
+            android:text="   - Si vous avez pris un tramway de la ligne 1, la correspondance est valable uniquement dans un tramway de la ligne 2 et dans la même direction, sans retour." />
+
+        <TextView
+            android:id="@+id/textView29"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/color_text_list"
+            android:text="   -  Si vous avez pris un tramway de la ligne 2, la correspondance est valable uniquement dans un tramway de la ligne 1 et dans la même direction, sans retour." />
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="10dp"
+            android:background="#ffffff" />
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="10dp"
+            android:background="@color/pink" />
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="10dp"
+            android:background="#ffffff" />
+        <TextView
+            android:id="@+id/textView118"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="                         TRAMWAY INFRACTIONS"
+            android:textColor="@color/pink"
+            android:textSize="18dp"
+            android:textStyle="bold"/>
+        <TextView
+            android:id="@+id/textView41"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="13dp"
+            android:layout_marginTop="10dp"
+
+            android:text="La validation des titres de transport est obligatoire à chaque montée, même lors d’une correspondance.\n
+A tout moment, le contrôleur peut demander à contrôler les titres de transport et toute infraction est passible d’une amende. \n"
+            android:textColor="@color/color_text_list"/>
+
+        <TextView
+            android:id="@+id/textView28"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="  Infractions tarifaires 1ère catégorie = 50 Dirhams"
+            android:textColor="#000000"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView35"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/color_text_list"
+            android:text="\n◆ Dépassement de la durée de validité (la dernière validation doit être effectuée dans l'heure qui suit la 1ère validation)\n\n◆ Absence de titre\n\n◆Absence de validation\n\n◆Validation en cours de contrôle\n\n◆ Abonnement périmé\n\n◆ Utilisation d'une carte par une personne autre que le titulaire\n\n◆ Titre défectueux (illisible ou déchiré)\n\n◆ Violation de l'interdiction de fumer\n\n◆ Usage abusif d'un instrument sonore\n\n◆ Crachat dans un véhicule\n " />
+
+        <TextView
+            android:id="@+id/textView21"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="  Infractions tarifaires 2ème catégorie = 150 Dirhams"
+            android:textColor="#000000"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView34"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/color_text_list"
+            android:text="\n◆ Usage abusif du signal d'alarme\n\n◆Obstacle à la fermeture des portes\n\n◆Titre falsifié (grattage, collage, surcharge)\n
+" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="86dp"
+                android:layout_height="wrap_content"
+                android:text="  Les délits"
+                android:textColor="#000000"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="65dp"
+                android:layout_height="28dp"
+                android:text="toto"
+                app:srcCompat="@drawable/attention" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView33"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/color_text_list"
+            android:text=" \n ▶Refus d'obtempérer\n\n
+▶Injures / menaces à l’encontre d’un agent Tram\n\n
+▶Usurpation d'identité ou fausse identité\n\n
+▶Vandalisme, détérioration du matériel\n
+" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView100"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  Les majorations"
+                android:textColor="#000000"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageVieww"
+                android:layout_width="94dp"
+                android:layout_height="28dp"
+                app:srcCompat="@drawable/lapoche" />
+        </LinearLayout>
+        <TextView
+            android:id="@+id/textView43"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/color_text_list"
+            android:text=" \n ▶Amende majorée de 20 Dirhams pour paiement en agence commerciale dans les 48h = 70 Dirhams\n\n
+▶Amende majorée de 50 Dirhams pour paiement en agence commerciale entre 48h et 10 jours = 100 Dirhams\n\n
+▶Amende majorée de 150 Dirhams pour paiement en agence commerciale entre 10 jours et 1 mois = 200 Dirhams\n
+" />
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="10dp"
+            android:background="#ffffff" />
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="10dp"
+            android:background="#ffffff" />
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="10dp"
+            android:background="#ffffff" />
+    </LinearLayout>
+</ScrollView>
